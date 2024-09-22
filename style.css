@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: bisque;
+}
+.container{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ff6309d0;
+    text-align: center;
+    height: 30rem;
+    width: 20rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(63, 50, 41);
+    margin: 3rem 8rem;
+    position: relative;
+    left: 27%;
+    padding-top: 1rem;
+}
+
+input{
+    height: 2rem;
+    background-color: rgb(223, 208, 197);
+    border: none;
+    border-radius: 5px;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.unit{
+    margin-bottom: 1rem;
+    
+}
+label{
+    font-size: 20px;
+    font-weight: 600;
+  
+}
+select{
+    height: 2rem;
+}
+.btn button{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 2rem;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid rgb(78, 32, 32);
+    border-radius: 10px;
+    background-color: rgba(214, 250, 12, 0.342);
+}
+.btn button:hover{
+    background-color: olive;
+    color: white;
+    transition: 4s ease;
+    transform: scale(2);
+   
+}
+
+#result {
+    background-color: rgb(218, 192, 159);
+    width: 80%;
+    height: 3rem;
+    text-align: center;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+
+@media screen and (max-width:768px){
+   
+
+    .container{
+        position: relative;
+        right: 30%;
+
+    }
+    
+}
+@media screen and (max-width:600px){
+   
+
+    .container{
+        position: relative;
+        right: 50%;
+
+    }
+    
+}
+@media screen and (max-width:560px){
+    
+    .container{
+        position: relative;
+      left: -10%;
+
+    }
+    
+}
+
+@media screen and (max-width:403px){
+   
+
+    .container{
+        position: relative;
+        left: -19%;
+        width: 19rem;
+    }
+    
+}
+@media screen and (max-width:365px){
+   
+
+    .container{
+        position: relative;
+       left: -30%;
+       margin-right: 3rem;
+       width: 17rem;
+
+    }
+    
+}
+@media screen and (max-width:323px){
+ 
+
+    .container{
+        position: relative;
+       left: -30%;
+       margin-right: 2rem;
+       width: 17rem;
+
+    }
+    
+}
+@media screen and (max-width:323px){
+ 
+
+    .container{
+        position: relative;
+       left: -30%;
+       margin-right: 2rem;
+       width: 14rem;
+
+    }
+    #result{
+        padding-top: 0.4rem;
+    }
+    
+}
